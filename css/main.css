@@ -1017,11 +1017,26 @@ header .top-bar {
 
 header .logo a {
 	display: block;
+	margin: 0;
+	padding: 0;
+	border: none;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	width: 100px;
+	height: 20px;
+	background: url("../images/logo.png") no-repeat center;
+	background-size: contain;
+	/* background-size: 92px 15px;
+	display: block;
 	text-shadow: none;
 	color: #FF0077;
+	width: 50px;
 	font-family: "poppins-medium", sans-serif;
-	font-size: 20px;
+	font-size: 0;
 	margin-left: 4px;
+	background-image: url(/images/logo.png);
+	background-size: contain; */
 }
 
 /**
@@ -1251,6 +1266,7 @@ header .logo a {
 	letter-spacing: .2rem;
 	color: #FFFFFF;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+	margin-top: 40px;
 }
 .intro-content .intro-position span {
 	display: inline-block;
